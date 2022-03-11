@@ -25,7 +25,7 @@
 }
 
 .about-banner-left-header{
-    height: 570px;
+    height: 620px;
     width: 60px;
     background-color: rgb(10, 10, 10);
     font-size: 40px;
@@ -40,7 +40,7 @@
 
 }
 .about-banner-right-header{
-    height: 570px;
+    height: 620px;
     width: 60px;
     background-color:rgb(10, 10, 10);
     font-size: 40px;
@@ -163,7 +163,7 @@
 
 .progress-bar-completed-5{
     height: 20px;
-    width: 40%;
+    width: 60%;
     margin: 0px;
     padding: 0px;
     background-color: rgb(11, 207, 142);
@@ -173,7 +173,7 @@
 
 .progress-bar-completed-6{
     height: 20px;
-    width: 85%;
+    width: 45%;
     margin: 0px;
     padding: 0px;
     background-color: rgb(189, 217, 221);
@@ -183,7 +183,7 @@
 
 .progress-bar-completed-7{
     height: 20px;
-    width: 70%;
+    width: 90%;
     margin: 0px;
     padding: 0px;
     background-color: rgb(11, 207, 142);
@@ -222,6 +222,17 @@
 
 .progress-bar-completed-F4{
     height: 20px;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(189, 217, 221);
+    border-radius: 0px 2px 2px 0px;
+}
+
+
+
+.progress-bar-completed-F5{
+    height: 20px;
     width: 60%;
     margin: 0px;
     padding: 0px;
@@ -230,6 +241,14 @@
 }
 
 
+.progress-bar-completed-F6{
+    height: 20px;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(189, 217, 221);
+    border-radius: 0px 2px 2px 0px;
+}
 
 
 
@@ -392,7 +411,7 @@
     height: 120px;
     width: 90%;
     background-color: rgb(34, 34, 34);
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 50px;
     border-radius: 70px 0px 0px 70px;
     display: flex;
@@ -425,17 +444,18 @@
     width: 100%;
     /* background-color: rgb(243, 16, 16); */
     display: flex;
+    margin-top: 50px;
 
 }
 .skills-container{
 
-    height: 300px;
+    height: 320px;
     width: 20%;
-    background-color: rgb(10, 10, 10);
-    margin-left: 40px;
+    background-color: rgb(24, 24, 24);
+    margin-left: 60px;
     margin-top: 15px;
-    box-shadow: 4px 4px 10px rgb(27, 27, 27);
-
+    box-shadow: 4px 4px 10px rgb(24, 23, 23);
+    border-radius: 15px;
     
 
 }
@@ -448,14 +468,16 @@
     margin-left: 5%;
     margin-top: 15px;
     display: flex;
+    margin-bottom: 30px;
 
 }
 .skills-image-1{
 
-    height: 80px;
-    width: 35%;
-    background-color: rgb(42, 194, 221);
-    border-radius: 55px;
+    height: 70px;
+    width: 28%;
+    /* background-color: rgb(42, 194, 221); */
+    background-size: cover;
+    border-radius: 60px;
     border: 3px solid rgb(143, 138, 130);
     box-shadow: 4px 4px 10px rgb(0, 0, 0);
 
@@ -465,14 +487,51 @@
 }
 .skills-desc{
 
-    height: 60px;
+    height: 55px;
     width: 70%;
     background-color: rgb(92, 91, 91);
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(173, 172, 172);
+
+
+}
+
+.skills-container-items{
+
+    height: 40px;
+    width: 70%;
+    /* background-color: rgb(92, 91, 91); */
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: auto;
+    color: aliceblue;
+    font-size: 17px;
+    color: rgb(209, 204, 204);
+    font-family: 'Teko', sans-serif;
+    font-weight: 10;
 
 
 
+}
+
+.line-break
+{
+width: 80%;
+height: 3px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2px;
+background-color:rgb(37, 37, 37) ;
+}
+
+.highlither{
+    color: rgb(189, 151, 224);
 }

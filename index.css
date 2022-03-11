@@ -248,6 +248,14 @@ body{
     display: flex;
 }
 
+.footer-about{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    margin-top: 500px;
+}
+
 .footer-left{
     height: 200px;
     width: 50%;
