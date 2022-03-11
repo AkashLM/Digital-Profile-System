@@ -512,9 +512,9 @@
     margin-left: auto;
     margin-top: 15px;
     margin-right: auto;
-    color: aliceblue;
+    /* color: aliceblue; */
     font-size: 17px;
-    color: rgb(209, 204, 204);
+    color: rgb(185, 182, 182);
     font-family: 'Teko', sans-serif;
     font-weight: 10;
 
@@ -534,4 +534,16 @@ background-color:rgb(37, 37, 37) ;
 
 .highlither{
     color: rgb(189, 151, 224);
+}
+
+.main-skills-header-acquaintance{
+
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(214, 29, 168); */
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+margin-top: 100PX;
 }
