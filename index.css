@@ -391,7 +391,19 @@ body{
 .main-banner-right{
     height: 600px;
     width: 50%;
-    /* background-color: rgb(132, 185, 7); */
+    background-color: rgb(132, 185, 7);
+
+}
+
+.main-banner-right-image{
+    
+    height: 600px;
+    width: 100%;
+    background-color: rgb(124, 2, 124);
+    margin-top: 0px;
+    background-image: url('./Pictures/profilePicture1.png');
+    background-size: cover;
+
 
 }
 
