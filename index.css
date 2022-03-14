@@ -342,9 +342,9 @@ body{
 }
 .nav-main-container-download-button{
     height:50%;
-    width: 80%;
+    width: 90%;
     /* background-color: rgb(36, 219, 243); */
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 2%;
     margin-top: 10px;
     margin-bottom: 10%;
@@ -430,7 +430,7 @@ body{
 
 .know-more-btn{
     height: 30px;
-    width: 90%;
+    width: 98%;
     background-color: rgb(245, 169, 7);
     color: white;
     font-size: 15px;
@@ -438,7 +438,7 @@ body{
     margin-left: 10%;
     margin-top: 5px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 9px;
     border-radius: 3px;
     font-weight: bold;
     border-radius: 25px;
