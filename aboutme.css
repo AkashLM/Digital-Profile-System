@@ -3,8 +3,9 @@
     height: 500px;
     width: 500px;
     margin-left: 30%;
+    margin-top: -1000px;
     margin-right: auto;
-    visibility:hidden;
+    /* visibility:hidden; */
     background: rgb(211,243,244);
     background: linear-gradient(174deg, rgba(211,243,244,1) 10%, rgba(64,164,217,1) 90%);
     position: fixed;
@@ -122,7 +123,7 @@
     width: 100%;
     /* background-color: rgb(16, 6, 39); */
     /* margin-top: 10px; */
-}
+}       
 
 .form-sub-mobile{
     height: 50px;
@@ -158,10 +159,18 @@
     border-radius: 15px;
     outline: none;
     border: none;
+    box-shadow: 2px 2px 4px gray inset;
+    cursor: pointer;
 
 
 }
-.submit-form{
+
+.btn-form:hover{
+    background-color: rgb(23, 206, 23);
+    color: white;
+    font-weight: bold;
+}
+    .submit-form{
 
     height: 50px;
     width: 100%;
@@ -207,7 +216,7 @@
     height: 40px;
     width: 42px;
     background-size: cover;
-    margin-left: auto;
+    margin-left: 27px;
     margin-right: auto;
     border-radius: 10px;
 }

@@ -23,8 +23,17 @@
 
     <script>
       function PopUpFunction(){
-        let mainComponent=document.getElementById("Popup-Contact").style.visibility="visible";
+        document.getElementById("Popup-Contact").style.marginTop="5px";
+        document.getElementById("Popup-Contact").style.transition="2s";
+
         
+
+      }
+
+      function CancelPopUP(){
+
+        document.getElementById("Popup-Contact").style.marginTop="-1000px";
+        document.getElementById("Popup-Contact").style.transition="1s";
 
       }
     </script>
@@ -45,14 +54,14 @@
           <i class="fas fa-phone-alt"></i>
         </div>
 
-        <div class="intro-main-intro-text">[+91] 86 00050678</div>
+        <div class="intro-main-intro-text"><a href="tel:8600050678" style="text-decoration: none;  color: rgb(214, 206, 206);"> +9186 00050678</a></div>
       </div>
       <div class="intro-main-email">
         <div class="intro-main-intro-logo">
           <i class="fas fa-envelope"></i>
         </div>
 
-        <div class="intro-main-intro-text">malekarakash70@gmail.com</div>
+        <div class="intro-main-intro-text"><a href="mailto:malekarakash70@gmail.com" style="text-decoration: none; color: rgb(214, 206, 206);">malekarakash70@gmail.com</a></div>
       </div>
     </div>
 
@@ -76,7 +85,10 @@
       <!-- download option -->
 
       <div class="nav-main-container-download">
-        <div class="nav-main-container-download-button">Download CV</div>
+        <a href="./AkashMalekarResume.pdf" download target="blank" style="text-decoration: none;">
+          <div class="nav-main-container-download-button">
+            Download CV
+          </div></a>
       </div>
     </div>
 <!--Floating pop-up for contact section starts here-->
@@ -108,23 +120,23 @@
   </div>
 
   <div class="contact-section-social-icons">
-    <div class="icons-items" style="background-image: url('./Pictures/linkedin.jpg');">
+<a href="www.linkedin.com/in/akash-malekar-694785216"><div class="icons-items" style="background-image: url('./Pictures/linkedin.jpg');">
 
-    </div>
+    </div></a>
 
-    <div class="icons-items" style="background-image: url('./Pictures/call.jpg');">
+    <a href="tel:8600050678"> <div class="icons-items" style="background-image: url('./Pictures/call.jpg');">
 
-    </div>
+    </div></a>
 
-    <div class="icons-items" style="background-image: url('./Pictures/email.jpg');">
+    <a href="mailto:malekarakash70@gmail.com"> <div class="icons-items" style="background-image: url('./Pictures/email.jpg');">
 
-    </div>
+    </div></a>
 
-    <div class="icons-items" style="background-image: url('./Pictures/github1.jpg');">
+    <a href="https://github.com/AkashLM"><div class="icons-items" style="background-image: url('./Pictures/github1.jpg');">
 
-    </div>
+    </div></a>
   </div>
-  <div class="contact-section-cancel">Cancel ?</div>
+  <div class="contact-section-cancel" onclick="CancelPopUP()">Cancel ?</div>
 </div>
 <!--Floating pop-up for contact section ends here-->
 
