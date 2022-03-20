@@ -1,61 +1,171 @@
-.Project-Stats{
+.Project-Container{
+    height: 650px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
 
-    height: 300px;
+.Project-Container-Left{
+
+   
+    width: 20%;
+    height: 0px;
+    border-bottom:650px solid rgb(10, 88, 156);
+    border-right: 55px solid transparent;
+
+
+}
+
+.Project-Container-Left-NavItem{
+
+    height: 100px;
     width: 80%;
+    background-color: rgb(48, 228, 24);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.NavItem-Left-Border{
+
+    height: 100px;
+    width: 20%;
+    background-color: rgb(24, 119, 228);
+
+
+}
+
+.NavItem-Right-Detail{
+
+    height: 80px;
+    width: 70%;
+    background-color: rgb(235, 17, 235);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.Project-Container-Right{
+
+    height: 550px;
+    width: 70%;
+    background-color: rgb(218, 43, 12);
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    background-color: aliceblue;
-    border-radius: 15px;
-    display: flex;
 
 }
 
-.Project-Stats-LeftHeader{
+.Project-Container-Right-Item-Container{
+
+    height: 2750px;
+    width: 100%;
+    background-color: rgb(101, 28, 236);
+
+}
+
+.Project-Container-Right-Item-Container-List{
+
+    height: 550px;
+    width: 100%;
+    background-color: rgb(232, 236, 28);
+    display: flex;
+ 
+}
+
+.Project-Description{
+
+    height: 550px;
+    width: 40%;
+    background-color: rgb(236, 28, 142);
+    
+}
+.Project-Description-Title{
+
+    height: 150px;
+    width: 100%;
+    background-color: rgb(197, 81, 13);
+
+}
+.Project-Description-Details-Section{
+
+    height: 150px;
+    width: 80%;
+    background-color: rgb(86, 239, 245);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+.Project-Images{
+    height: 550px;
+    width: 60%;
+    background-color: rgb(231, 11, 3);
+
+
+}
+
+.Project-Images-Section{
 
     height: 250px;
-    width: 20%;
-    margin-left: 0px;
-    background-color: rgb(124, 123, 123);    background-image: url('./Pictures/batch.png');
-    background-size: cover;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 50px;
-    border-radius: 15px 0px 0px 15px;
-    font-family: 'Teko', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    width: 100%;
+    background-color: rgb(96, 217, 226);
+    margin-top: 20px;
+    display: flex;
 }
 
-.Project-Stats-RightBody{
+.section-Item-1{
 
     height: 300px;
-    width: 80%;
-    margin-left: 0px;
-    border-radius: 0px 15px 15px 0px;
-    background-color: rgb(230, 78, 18);
-    display: flex;
+    width: 60%;
+    background-color: rgb(235, 136, 6);
+
 
 }
 
-.Project-Stats-RightBody-Item{
+.section-Item-2{
+    height: 250px;
+    width: 40%;
+    background-color: rgb(6, 144, 235);
+
+
+}
+
+.section-Item-2-Sub{
+
+    height: 120px;
+    width: 80%;
+    background-color: rgb(230, 100, 165);
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.section-Item-3, .section-Item-4{
+
+    height: 200px;
+    width: 30%;
+    background-color: rgb(230, 100, 165);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.section-Item-5{
 
     height: 250px;
-    width: 20%;
-    margin-left: 4%;
-    margin-top: 25px;
-    background-color: rgb(65, 238, 250);
-    border-radius: 15px;
-
-}
-
-.Project-Stats-RightBody-Item-Title{
-
-    height: 100px;
-    width: 100%;
-    background-color: rgba(0, 0, 0,0.6);
-    margin-top: 120px;
+    width: 35%;
+    background-color: rgb(58, 207, 28);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
