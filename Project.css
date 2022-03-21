@@ -39,14 +39,19 @@
 
 .NavItem-Right-Detail{
 
-    height: 80px;
+    height: 60px;
     width: 70%;
-    background-color: rgb(235, 17, 235);
+    /* background-color: rgb(235, 17, 235); */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding-top: 0px;
+    font-size: 20px;
+    cursor: pointer;
+
 
 }
+
 
 .Project-Container-Right{
 
@@ -56,6 +61,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    overflow: hidden;
 
 }
 
@@ -63,7 +69,7 @@
 
     height: 2750px;
     width: 100%;
-    background-color: rgb(101, 28, 236);
+    background-color: rgb(243, 233, 239);
 
 }
 
@@ -85,9 +91,16 @@
 }
 .Project-Description-Title{
 
-    height: 150px;
+    height: 110px;
     width: 100%;
     background-color: rgb(197, 81, 13);
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+
 
 }
 .Project-Description-Details-Section{
@@ -123,6 +136,7 @@
     height: 300px;
     width: 60%;
     background-color: rgb(235, 136, 6);
+    background-size: cover;
 
 
 }
@@ -131,7 +145,7 @@
     height: 250px;
     width: 40%;
     background-color: rgb(6, 144, 235);
-
+    background-size: cover;
 
 }
 
@@ -143,6 +157,7 @@
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
+    background-size: cover;
 
 
 }
@@ -155,6 +170,7 @@
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    background-size: cover;
 
 
 }
@@ -167,5 +183,6 @@
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+    background-size: cover;
 
 }
