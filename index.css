@@ -144,20 +144,26 @@ body {
   padding-left: 0px;
 }
 
-.btn-form {
+.btn-form{
+
   height: 40px;
   width: 80px;
+  background-color: rgb(23, 206, 23);
+  color: white;
   /* background-color: rgb(24, 240, 204); */
   border-radius: 15px;
   outline: none;
   border: none;
   box-shadow: 2px 2px 4px gray inset;
   cursor: pointer;
+  font-weight: bold;
+
+
 }
 
-.btn-form:hover {
-  background-color: rgb(23, 206, 23);
-  color: white;
+.btn-form:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(39, 37, 37);
   font-weight: bold;
 }
 .submit-form {
