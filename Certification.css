@@ -10,11 +10,13 @@
 .Certification-main-container-Left{
     height: 300px;
     width: 40%;
-    background-color: #CEAB93;
+    /* background-color: #CEAB93; */
+    background: rgb(206,171,147);
+background: linear-gradient(83deg, rgba(206,171,147,1) 0%, rgba(206,171,147,1) 67%, rgba(237,230,224,1) 92%);
     margin-left: 5%;
     margin-top: 20px;
     display: flex;
-    border-radius: 15px;
+    border-radius: 2px;
 }
 
 .Certification-main-container-Left-Image{
@@ -24,7 +26,7 @@
     background-color: rgb(226, 228, 222);
     margin: 25px;
     background-size:cover;
-    border-radius: 15px;
+    border-radius: 2px;
 }
 
 .Certification-main-container-Left-Right-Dec{
