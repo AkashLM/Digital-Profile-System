@@ -19,32 +19,27 @@
       href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <script>
-      function PopUpFunction(){
-        document.getElementById("Popup-Contact").style.marginTop="5px";
-        document.getElementById("Popup-Contact").style.transition="2s";
-
-        
-
+      function PopUpFunction() {
+        document.getElementById("Popup-Contact").style.marginTop = "5px";
+        document.getElementById("Popup-Contact").style.transition = "2s";
       }
 
-      function CancelPopUP(){
-
-        document.getElementById("Popup-Contact").style.marginTop="-1000px";
-        document.getElementById("Popup-Contact").style.transition="1s";
-
+      function CancelPopUP() {
+        document.getElementById("Popup-Contact").style.marginTop = "-1000px";
+        document.getElementById("Popup-Contact").style.transition = "1s";
       }
 
-      function submitSuccess(){
-
-document.getElementById("Popup-Contact").style.marginTop="-1000px";
-document.getElementById("Popup-Contact").style.transition="1s";
-confirm("Your Response submitted successfully !")
-
-}
-
+      function submitSuccess() {
+        document.getElementById("Popup-Contact").style.marginTop = "-1000px";
+        document.getElementById("Popup-Contact").style.transition = "1s";
+        confirm("Your Response submitted successfully !");
+      }
     </script>
   </head>
   <body>
@@ -63,14 +58,27 @@ confirm("Your Response submitted successfully !")
           <i class="fas fa-phone-alt"></i>
         </div>
 
-        <div class="intro-main-intro-text"><a href="tel:8600050678" style="text-decoration: none;  color: rgb(214, 206, 206);"> +9186 00050678</a></div>
+        <div class="intro-main-intro-text">
+          <a
+            href="tel:8600050678"
+            style="text-decoration: none; color: rgb(214, 206, 206)"
+          >
+            +9186 00050678</a
+          >
+        </div>
       </div>
       <div class="intro-main-email">
         <div class="intro-main-intro-logo">
           <i class="fas fa-envelope"></i>
         </div>
 
-        <div class="intro-main-intro-text"><a href="mailto:malekarakash70@gmail.com" style="text-decoration: none; color: rgb(214, 206, 206);">malekarakash70@gmail.com</a></div>
+        <div class="intro-main-intro-text">
+          <a
+            href="mailto:malekarakash70@gmail.com"
+            style="text-decoration: none; color: rgb(214, 206, 206)"
+            >malekarakash70@gmail.com</a
+          >
+        </div>
       </div>
     </div>
 
@@ -81,74 +89,134 @@ confirm("Your Response submitted successfully !")
 
       <!-- navigation options -->
       <div class="nav-main-container">
-        <div class="nav-option">Home</div>
-        <div class="nav-option">About Me</div>
+        <div class="nav-option">
+          <a href="./index.html" style="text-decoration: none; color: white"
+            >Home</a
+          >
+        </div>
+        <div class="nav-option">
+          <a href="./aboutme.html" style="text-decoration: none; color: white"
+            >About Me</a
+          >
+        </div>
 
-        <div class="nav-option">Projects</div>
+        <div class="nav-option">
+          <a href="./Project.html" style="text-decoration: none; color: white"
+            >Projects</a
+          >
+        </div>
 
-        <div class="nav-option">Certifications</div>
+        <div class="nav-option">
+          <a
+            href="./Certification.html"
+            style="text-decoration: none; color: white"
+            >Certifications</a
+          >
+        </div>
 
-        <div class="nav-option" onclick="PopUpFunction()">Contact Me</div>
+        <div class="nav-option" onclick="PopUpFunction()">
+          <a href="#" style="text-decoration: none; color: white">Contact Me</a>
+        </div>
       </div>
 
       <!-- download option -->
 
       <div class="nav-main-container-download">
-        <a href="./AkashMalekarResume.pdf" download target="blank" style="text-decoration: none;">
+        <a
+          href="./AkashMalekarResume.pdf"
+          download
+          target="blank"
+          style="text-decoration: none"
+        >
           <div class="nav-main-container-download-button">
             Download Resume
-          </div></a>
+          </div></a
+        >
       </div>
     </div>
-<!--Floating pop-up for contact section starts here-->
-<div class="contact-floating-main" id="Popup-Contact">
-  <div class="contact-section-header">Connect with me !</div>
-  <div class="contact-section-form">
-    <div class="form-name">
-      <input type="text" placeholder=" &#10000; Enter your name" class="name">
+    <!--Floating pop-up for contact section starts here-->
+    <div class="contact-floating-main" id="Popup-Contact">
+      <div class="contact-section-header">Connect with me !</div>
+      <div class="contact-section-form">
+        <div class="form-name">
+          <input
+            type="text"
+            placeholder=" &#10000; Enter your name"
+            class="name"
+          />
+        </div>
+
+        <div class="form-email">
+          <input
+            type="email"
+            placeholder="&#9993; Enter your Email"
+            class="email"
+          />
+        </div>
+
+        <div class="form-sub-mobile">
+          <div class="form-location">
+            <input
+              type="text"
+              placeholder="&#10170; Current Location"
+              class="location"
+            />
+          </div>
+          <div class="form-mobile-no">
+            <input
+              type="text"
+              placeholder="&#9990; +10 Digit number"
+              class="mobile"
+            />
+          </div>
+        </div>
+
+        <div class="form-msg">
+          <textarea
+            placeholder="&#9993; Description message"
+            class="msg-details"
+          ></textarea>
+        </div>
+
+        <div class="submit-form">
+          <button type="submit" class="btn-form" onclick="submitSuccess()">
+            Submit
+          </button>
+        </div>
+      </div>
+
+      <div class="contact-section-social-icons">
+        <a href="www.linkedin.com/in/akash-malekar-694785216"
+          ><div
+            class="icons-items"
+            style="background-image: url('./Pictures/linkedin.jpg')"
+          ></div
+        ></a>
+
+        <a href="tel:8600050678">
+          <div
+            class="icons-items"
+            style="background-image: url('./Pictures/call.jpg')"
+          ></div
+        ></a>
+
+        <a href="mailto:malekarakash70@gmail.com">
+          <div
+            class="icons-items"
+            style="background-image: url('./Pictures/email.jpg')"
+          ></div
+        ></a>
+
+        <a href="https://github.com/AkashLM"
+          ><div
+            class="icons-items"
+            style="background-image: url('./Pictures/github1.jpg')"
+          ></div
+        ></a>
+      </div>
+      <div class="contact-section-cancel" onclick="CancelPopUP()">Cancel ?</div>
     </div>
-
-    <div class="form-email">
-      <input type="email" placeholder="&#9993; Enter your Email" class="email">
-    </div>
-
-    <div class="form-sub-mobile">
-      <div class="form-location"><input type="text" placeholder="&#10170; Current Location" class="location"></div>
-      <div class="form-mobile-no"><input type="text" placeholder="&#9990; +10 Digit number" class="mobile"></div>
-    </div>
-
-    
-
-    <div class="form-msg" >
-      <textarea placeholder="&#9993; Description message" class="msg-details"></textarea>
-    </div>
-
-    <div class="submit-form">
-      <button type="submit" class="btn-form" onclick="submitSuccess()">Submit</button>
-    </div>
-  </div>
-
-  <div class="contact-section-social-icons">
-<a href="www.linkedin.com/in/akash-malekar-694785216"><div class="icons-items" style="background-image: url('./Pictures/linkedin.jpg');">
-
-    </div></a>
-
-    <a href="tel:8600050678"> <div class="icons-items" style="background-image: url('./Pictures/call.jpg');">
-
-    </div></a>
-
-    <a href="mailto:malekarakash70@gmail.com"> <div class="icons-items" style="background-image: url('./Pictures/email.jpg');">
-
-    </div></a>
-
-    <a href="https://github.com/AkashLM"><div class="icons-items" style="background-image: url('./Pictures/github1.jpg');">
-
-    </div></a>
-  </div>
-  <div class="contact-section-cancel" onclick="CancelPopUP()">Cancel ?</div>
-</div>
-<!--Floating pop-up for contact section ends here-->
-
+    <!--Floating pop-up for contact section ends here-->
 
     <!-- main banner -->
 
@@ -340,22 +408,22 @@ confirm("Your Response submitted successfully !")
 
             <!-- framework module ends here -->
 
-              <!-- franework module starts here -->
-              <div class="framework-content-item">
-                <!-- framework name -->
-                <div class="framework-name">Express JS</div>
-                <!-- language bar -->
-                <div class="framework-bar">
-                  <!-- progress bar -->
-                  <div class="progress-bar">
-                    <div class="progress-bar-completed-F5"></div>
-                  </div>
+            <!-- franework module starts here -->
+            <div class="framework-content-item">
+              <!-- framework name -->
+              <div class="framework-name">Express JS</div>
+              <!-- language bar -->
+              <div class="framework-bar">
+                <!-- progress bar -->
+                <div class="progress-bar">
+                  <div class="progress-bar-completed-F5"></div>
                 </div>
               </div>
-  
-              <!-- framework module ends here -->
+            </div>
 
-                <!-- franework module starts here -->
+            <!-- framework module ends here -->
+
+            <!-- franework module starts here -->
             <div class="framework-content-item">
               <!-- framework name -->
               <div class="framework-name">Bootstrap 5</div>
@@ -369,8 +437,6 @@ confirm("Your Response submitted successfully !")
             </div>
 
             <!-- framework module ends here -->
-
-            
           </div>
         </div>
       </div>
@@ -625,125 +691,96 @@ confirm("Your Response submitted successfully !")
 
     <!--Experience section container-->
     <div class="Experience-main-container">
-
       <!--left section starts here-->
       <div class="Experience-main-container-Left">
-        <div class="Experience-main-container-Left-Image" style="background-image: url('./Pictures/l&dinfo1.png');"></div>
+        <div
+          class="Experience-main-container-Left-Image"
+          style="background-image: url('./Pictures/l&dinfo1.png')"
+        ></div>
 
         <div class="Experience-main-container-Left-Right-Dec">
-          <div class="Experience-main-container-Left-Right-Dec-Title">Jod Details</div>
-
-          <div class="Desc-item">
-            <div class="Desc-item-Left">
-              Company Name: 
-            </div>
-            <div class="Desc-item-Right">
-              L & D InfoTech Pvt. Ltd., Pune.
-            </div>
+          <div class="Experience-main-container-Left-Right-Dec-Title">
+            Jod Details
           </div>
 
           <div class="Desc-item">
-            <div class="Desc-item-Left">
-              Position: 
-            </div>
-            <div class="Desc-item-Right">
-              Front-End Developer.
-            </div>
+            <div class="Desc-item-Left">Company Name:</div>
+            <div class="Desc-item-Right">L & D InfoTech Pvt. Ltd., Pune.</div>
           </div>
 
           <div class="Desc-item">
-            <div class="Desc-item-Left">
-              Duration:
-            </div>
-            <div class="Desc-item-Right">
-               1 Year
-            </div>
+            <div class="Desc-item-Left">Position:</div>
+            <div class="Desc-item-Right">Front-End Developer.</div>
           </div>
 
           <div class="Desc-item">
-            <div class="Desc-item-Left">
-              Salary:
-            </div>
-            <div class="Desc-item-Right">
-               Rs. 25,000
-            </div>
+            <div class="Desc-item-Left">Duration:</div>
+            <div class="Desc-item-Right">1 Year</div>
           </div>
 
           <div class="Desc-item">
-            <div class="Desc-item-Left">
-              Work categorials:
-            </div>
+            <div class="Desc-item-Left">Salary:</div>
+            <div class="Desc-item-Right">Rs. 25,000</div>
+          </div>
+
+          <div class="Desc-item">
+            <div class="Desc-item-Left">Work categorials:</div>
             <div class="Desc-item-Right">
               UI for webpages, dynamic templates designs & many more.
             </div>
           </div>
-
         </div>
-
-
       </div>
 
-          <!--left section ends here-->
+      <!--left section ends here-->
 
-              <!--Right section starts here-->
-              <div class="Experience-main-container-Left">
-                <div class="Experience-main-container-Left-Image" style="background-image: url('./Pictures/imuna1.jfif');"></div>
-        
-                <div class="Experience-main-container-Left-Right-Dec">
-                  <div class="Experience-main-container-Left-Right-Dec-Title">Internship Details</div>
-        
-                  <div class="Desc-item">
-                    <div class="Desc-item-Left">
-                      Organization Name: 
-                    </div>
-                    <div class="Desc-item-Right">
-                      International Model of United Nation(IMUN)
-                    </div>
-                  </div>
-        
-                  <div class="Desc-item">
-                    <div class="Desc-item-Left">
-                      Position: 
-                    </div>
-                    <div class="Desc-item-Right">
-                      Intern and Delegate of Myanmar country.
-                    </div>
-                  </div>
+      <!--Right section starts here-->
+      <div class="Experience-main-container-Left">
+        <div
+          class="Experience-main-container-Left-Image"
+          style="background-image: url('./Pictures/imuna1.jfif')"
+        ></div>
 
-                  <div class="Desc-item">
-                    <div class="Desc-item-Left">
-                      Duration:
-                    </div>
-                    <div class="Desc-item-Right">
-                      2 Months
-                    </div>
-                  </div>
-        
-                  <div class="Desc-item">
-                    <div class="Desc-item-Left">
-                      Stipend:
-                    </div>
-                    <div class="Desc-item-Right">
-                       Certifications and referals amount
-                    </div>
-                  </div>
-        
-                  <div class="Desc-item">
-                    <div class="Desc-item-Left">
-                      Work categorials:
-                    </div>
-                    <div class="Desc-item-Right">
-                     Content writer, delegate and representative of Myanmar country.
-                    </div>
-                  </div>
-        
-                </div>
-        
-        
-              </div>
-              <!--Right section ends here-->
+        <div class="Experience-main-container-Left-Right-Dec">
+          <div class="Experience-main-container-Left-Right-Dec-Title">
+            Internship Details
+          </div>
 
-    
+          <div class="Desc-item">
+            <div class="Desc-item-Left">Organization Name:</div>
+            <div class="Desc-item-Right">
+              International Model of United Nation(IMUN)
+            </div>
+          </div>
+
+          <div class="Desc-item">
+            <div class="Desc-item-Left">Position:</div>
+            <div class="Desc-item-Right">
+              Intern and Delegate of Myanmar country.
+            </div>
+          </div>
+
+          <div class="Desc-item">
+            <div class="Desc-item-Left">Duration:</div>
+            <div class="Desc-item-Right">2 Months</div>
+          </div>
+
+          <div class="Desc-item">
+            <div class="Desc-item-Left">Stipend:</div>
+            <div class="Desc-item-Right">
+              Certifications and referals amount
+            </div>
+          </div>
+
+          <div class="Desc-item">
+            <div class="Desc-item-Left">Work categorials:</div>
+            <div class="Desc-item-Right">
+              Content writer, delegate and representative of Myanmar country.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Right section ends here-->
     </div>
 
     <!-- main banner ends here -->

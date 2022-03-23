@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="aboutme.css" />
     <link rel="stylesheet" href="Project.css" />
     <link rel="stylesheet" href="all.min.css" />
-    
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,35 +20,27 @@
       href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <script>
-
-      function PopUpFunction(){
-        document.getElementById("Popup-Contact").style.marginTop="5px";
-        document.getElementById("Popup-Contact").style.transition="2s";
-
-        
-
+      function PopUpFunction() {
+        document.getElementById("Popup-Contact").style.marginTop = "5px";
+        document.getElementById("Popup-Contact").style.transition = "2s";
       }
 
-      function CancelPopUP(){
-
-        document.getElementById("Popup-Contact").style.marginTop="-1000px";
-        document.getElementById("Popup-Contact").style.transition="1s";
-
+      function CancelPopUP() {
+        document.getElementById("Popup-Contact").style.marginTop = "-1000px";
+        document.getElementById("Popup-Contact").style.transition = "1s";
       }
 
-      function submitSuccess(){
-
-document.getElementById("Popup-Contact").style.marginTop="-1000px";
-document.getElementById("Popup-Contact").style.transition="1s";
-confirm("Your Response submitted successfully !")
-
-}
-
-
-
+      function submitSuccess() {
+        document.getElementById("Popup-Contact").style.marginTop = "-1000px";
+        document.getElementById("Popup-Contact").style.transition = "1s";
+        confirm("Your Response submitted successfully !");
+      }
     </script>
   </head>
   <body>
@@ -68,15 +59,28 @@ confirm("Your Response submitted successfully !")
           <i class="fas fa-phone-alt"></i>
         </div>
 
-        <div class="intro-main-intro-text"><a href="tel:8600050678" style="text-decoration: none;  color: rgb(214, 206, 206);"> +9186 00050678</a></div>
+        <div class="intro-main-intro-text">
+          <a
+            href="tel:8600050678"
+            style="text-decoration: none; color: rgb(214, 206, 206)"
+          >
+            +9186 00050678</a
+          >
+        </div>
       </div>
       <div class="intro-main-email">
         <div class="intro-main-intro-logo">
           <i class="fas fa-envelope"></i>
         </div>
 
-        <div class="intro-main-intro-text"><a href="mailto:malekarakash70@gmail.com" style="text-decoration: none; color: rgb(214, 206, 206);">malekarakash70@gmail.com</a></div>
-      </div>  
+        <div class="intro-main-intro-text">
+          <a
+            href="mailto:malekarakash70@gmail.com"
+            style="text-decoration: none; color: rgb(214, 206, 206)"
+            >malekarakash70@gmail.com</a
+          >
+        </div>
+      </div>
     </div>
 
     <!-- Navigation bar -->
@@ -86,312 +90,725 @@ confirm("Your Response submitted successfully !")
 
       <!-- navigation options -->
       <div class="nav-main-container">
-        <div class="nav-option">Home</div>
-        <div class="nav-option">About Me</div>
+        <div class="nav-option">
+          <a href="./index.html" style="text-decoration: none; color: white"
+            >Home</a
+          >
+        </div>
+        <div class="nav-option">
+          <a href="./aboutme.html" style="text-decoration: none; color: white"
+            >About Me</a
+          >
+        </div>
 
-        <div class="nav-option">Projects</div>
+        <div class="nav-option">
+          <a href="./Project.html" style="text-decoration: none; color: white"
+            >Projects</a
+          >
+        </div>
 
-        <div class="nav-option">Certifications</div>
+        <div class="nav-option">
+          <a
+            href="./Certification.html"
+            style="text-decoration: none; color: white"
+            >Certifications</a
+          >
+        </div>
 
-        <div class="nav-option" onclick="PopUpFunction()">Contact Me</div>
+        <div class="nav-option" onclick="PopUpFunction()">
+          <a href="#" style="text-decoration: none; color: white">Contact Me</a>
+        </div>
       </div>
 
       <!-- download option -->
 
       <div class="nav-main-container-download">
-        <a href="./AkashMalekarResume.pdf" download target="blank" style="text-decoration: none;">
+        <a
+          href="./AkashMalekarResume.pdf"
+          download
+          target="blank"
+          style="text-decoration: none"
+        >
           <div class="nav-main-container-download-button">
             Download Resume
-          </div></a>
+          </div></a
+        >
       </div>
     </div>
-<!--Floating pop-up for contact section starts here-->
-<div class="contact-floating-main" id="Popup-Contact">
-  <div class="contact-section-header">Connect with me !</div>
-  <div class="contact-section-form">
-    <div class="form-name">
-      <input type="text" placeholder=" &#10000; Enter your name" class="name">
+    <!--Floating pop-up for contact section starts here-->
+    <div class="contact-floating-main" id="Popup-Contact">
+      <div class="contact-section-header">Connect with me !</div>
+      <div class="contact-section-form">
+        <div class="form-name">
+          <input
+            type="text"
+            placeholder=" &#10000; Enter your name"
+            class="name"
+          />
+        </div>
+
+        <div class="form-email">
+          <input
+            type="email"
+            placeholder="&#9993; Enter your Email"
+            class="email"
+          />
+        </div>
+
+        <div class="form-sub-mobile">
+          <div class="form-location">
+            <input
+              type="text"
+              placeholder="&#10170; Current Location"
+              class="location"
+            />
+          </div>
+          <div class="form-mobile-no">
+            <input
+              type="text"
+              placeholder="&#9990; +10 Digit number"
+              class="mobile"
+            />
+          </div>
+        </div>
+
+        <div class="form-msg">
+          <textarea
+            placeholder="&#9993; Description message"
+            class="msg-details"
+          ></textarea>
+        </div>
+
+        <div class="submit-form">
+          <button type="submit" class="btn-form" onclick="submitSuccess()">
+            Submit
+          </button>
+        </div>
+      </div>
+
+      <div class="contact-section-social-icons">
+        <a href="www.linkedin.com/in/akash-malekar-694785216"
+          ><div
+            class="icons-items"
+            style="background-image: url('./Pictures/linkedin.jpg')"
+          ></div
+        ></a>
+
+        <a href="tel:8600050678">
+          <div
+            class="icons-items"
+            style="background-image: url('./Pictures/call.jpg')"
+          ></div
+        ></a>
+
+        <a href="mailto:malekarakash70@gmail.com">
+          <div
+            class="icons-items"
+            style="background-image: url('./Pictures/email.jpg')"
+          ></div
+        ></a>
+
+        <a href="https://github.com/AkashLM"
+          ><div
+            class="icons-items"
+            style="background-image: url('./Pictures/github1.jpg')"
+          ></div
+        ></a>
+      </div>
+      <div class="contact-section-cancel" onclick="CancelPopUP()">Cancel ?</div>
     </div>
+    <!--Floating pop-up for contact section ends here-->
 
-    <div class="form-email">
-      <input type="email" placeholder="&#9993; Enter your Email" class="email">
-    </div>
-
-    <div class="form-sub-mobile">
-      <div class="form-location"><input type="text" placeholder="&#10170; Current Location" class="location"></div>
-      <div class="form-mobile-no"><input type="text" placeholder="&#9990; +10 Digit number" class="mobile"></div>
-    </div>
-
-    
-
-    <div class="form-msg" >
-      <textarea placeholder="&#9993; Description message" class="msg-details"></textarea>
-    </div>
-
-    <div class="submit-form">
-      <button type="submit" class="btn-form" onclick="submitSuccess()">Submit</button>
-    </div>
-  </div>
-
-  <div class="contact-section-social-icons">
-<a href="www.linkedin.com/in/akash-malekar-694785216"><div class="icons-items" style="background-image: url('./Pictures/linkedin.jpg');">
-
-    </div></a>
-
-    <a href="tel:8600050678"> <div class="icons-items" style="background-image: url('./Pictures/call.jpg');">
-
-    </div></a>
-
-    <a href="mailto:malekarakash70@gmail.com"> <div class="icons-items" style="background-image: url('./Pictures/email.jpg');">
-
-    </div></a>
-
-    <a href="https://github.com/AkashLM"><div class="icons-items" style="background-image: url('./Pictures/github1.jpg');">
-
-    </div></a>
-  </div>
-  <div class="contact-section-cancel" onclick="CancelPopUP()">Cancel ?</div>
-</div>
-<!--Floating pop-up for contact section ends here-->
-
-<!--///////////////////////////////////
-/////////////////////////////////////////
-/////////////////////////////////////////-->
-
-
-<div class="Project-Container">
-
-  <div class="Project-Container-Left">
     <!--///////////////////////////////////
 /////////////////////////////////////////
 /////////////////////////////////////////-->
-  <!--Left Optional nav bar box starts here-->
-    <div class="Project-Container-Left-NavItem">
-      <div class="NavItem-Left-Border">
 
-      </div>
-      <div class="NavItem-Right-Detail" onclick="BoxSliderMovieFetcher()">
-        &#127909; Movie Fetcher Web Application
-      </div>
-    </div>
-     <!--Left Optional nav bar box ends here-->    
-<!--///////////////////////////////////
+    <div class="Project-Container">
+      <div class="Project-Container-Left">
+        <!--///////////////////////////////////
 /////////////////////////////////////////
 /////////////////////////////////////////-->
-
-     <!--Left Optional nav bar box starts here-->
-    <div class="Project-Container-Left-NavItem">
-      <div class="NavItem-Left-Border">
-
-      </div>
-      <div class="NavItem-Right-Detail" onclick="BoxSliderInstagram()">
-        &#8986; Instagram Clone Web-Application
-      </div>
-    </div>
-     <!--Left Optional nav bar box ends here-->    
-     <!--///////////////////////////////////
-/////////////////////////////////////////
-/////////////////////////////////////////-->
-
-     <!--Left Optional nav bar box starts here-->
-    <div class="Project-Container-Left-NavItem">
-      <div class="NavItem-Left-Border">
-
-      </div>
-      <div class="NavItem-Right-Detail" onclick="BoxSliderMakeUpProject()">
-        &#9734; MakeUp Studio Web Project
-      </div>
-    </div>
-     <!--Left Optional nav bar box ends here-->    
-<!--///////////////////////////////////
-/////////////////////////////////////////
-/////////////////////////////////////////-->
-     <!--Left Optional nav bar box starts here-->
-    <div class="Project-Container-Left-NavItem">
-      <div class="NavItem-Left-Border">
-
-      </div>
-      <div class="NavItem-Right-Detail" onclick="BoxSlideStickyNotes()">
-        &#9998; Sticky-notes Web Project
-      </div>
-    </div>
-     <!--Left Optional nav bar box ends here-->    
-<!--///////////////////////////////////
-/////////////////////////////////////////
-/////////////////////////////////////////-->
-     <!--Left Optional nav bar box starts here-->
-    <div class="Project-Container-Left-NavItem">
-      <div class="NavItem-Left-Border">
-
-      </div>
-      <div class="NavItem-Right-Detail" onclick="BoxSlideTextToSpeech()" >
-        &#128266; Text-To_Speech Converter
-      </div>
-    </div>
-     <!--Left Optional nav bar box ends here-->    
-     <!--///////////////////////////////////
-/////////////////////////////////////////
-/////////////////////////////////////////-->
-  </div>
-
-  <div class="Project-Container-Right">
-    <div class="Project-Container-Right-Item-Container" id="Right-Project_slider">
-
-      <!--///////////////////Item Container starts here///////////////////-->
-
-
-      <div class="Project-Container-Right-Item-Container-List">
-        <div class="Project-Description">
-          <div class="Project-Description-Title">
-            Movies Fetcher and Reviewer Web-Application
-
-          </div>
-          <div class="Project-Description-Details">
-            <div class="Project-Description-Details-Section">
-              &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it<br>&nbsp; &nbsp;&nbsp;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            </div>
-
-            <div class="Project-Description-Details-Section">
-              &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it<br>&nbsp; &nbsp;&nbsp;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </div>
-
+        <!--Left Optional nav bar box starts here-->
+        <div
+          class="Project-Container-Left-NavItem"
+          style="
+            background-image: url('./ProjectDetails/ScrollerBackgrounds/moviesscrollerbackg.jpg');
+            background-size: contain;
+          "
+        >
+          <div class="NavItem-Left-Border"></div>
+          <div class="NavItem-Right-Detail" onclick="BoxSliderMovieFetcher()">
+            &#127909; Movie Fetcher Web Application
           </div>
         </div>
-        <div class="Project-Images">
-          <div class="Project-Images-Section">
-            <div class="section-Item-1" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');">
+        <!--Left Optional nav bar box ends here-->
+        <!--///////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////-->
 
-            </div>
-            <div class="section-Item-2">
-              <div class="section-Item-2-Sub" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');"></div>
-              <div class="section-Item-2-Sub" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');"></div>
-            </div>
-
-          </div>
-
-          <div class="Project-Images-Section">
-              <div class="section-Item-3" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');">
-
-              </div>
-
-              <div class="section-Item-4" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');">
-                
-              </div>
-
-              <div class="section-Item-5" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');">
-                
-              </div>
+        <!--Left Optional nav bar box starts here-->
+        <div
+          class="Project-Container-Left-NavItem"
+          style="
+            background-image: url('./ProjectDetails/ScrollerBackgrounds/instagramscrollerback.jfif');
+            background-size: contain;
+          "
+        >
+          <div class="NavItem-Left-Border"></div>
+          <div class="NavItem-Right-Detail" onclick="BoxSliderInstagram()">
+            &#8986; Instagram Clone Web-Application
           </div>
         </div>
+        <!--Left Optional nav bar box ends here-->
+        <!--///////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////-->
 
+        <!--Left Optional nav bar box starts here-->
+        <div
+          class="Project-Container-Left-NavItem"
+          style="
+            background-image: url('./ProjectDetails/ScrollerBackgrounds/makeupscrollerback.jfif');
+            background-size: cover;
+          "
+        >
+          <div class="NavItem-Left-Border"></div>
+          <div class="NavItem-Right-Detail" onclick="BoxSliderMakeUpProject()">
+            &#9734; MakeUp Studio Web Project
+          </div>
+        </div>
+        <!--Left Optional nav bar box ends here-->
+        <!--///////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////-->
+        <!--Left Optional nav bar box starts here-->
+        <div
+          class="Project-Container-Left-NavItem"
+          style="
+            background-image: url('./ProjectDetails/ScrollerBackgrounds/stickynotesscrollerback.jfif');
+            background-size: contain;
+          "
+        >
+          <div class="NavItem-Left-Border"></div>
+          <div class="NavItem-Right-Detail" onclick="BoxSlideStickyNotes()">
+            &#9998; Sticky-notes Web Project
+          </div>
+        </div>
+        <!--Left Optional nav bar box ends here-->
+        <!--///////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////-->
+        <!--Left Optional nav bar box starts here-->
+        <div
+          class="Project-Container-Left-NavItem"
+          style="
+            background-image: url('./ProjectDetails/ScrollerBackgrounds/textscrollerback.jfif');
+            background-size: contain;
+          "
+        >
+          <div class="NavItem-Left-Border"></div>
+          <div class="NavItem-Right-Detail" onclick="BoxSlideTextToSpeech()">
+            &#128266; Text-To-Speech Converter
+          </div>
+        </div>
+        <!--Left Optional nav bar box ends here-->
+        <!--///////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////-->
       </div>
-      <!--///////////////////Item Container ends here///////////////////-->
 
+      <div class="Project-Container-Right">
+        <div
+          class="Project-Container-Right-Item-Container"
+          id="Right-Project_slider"
+        >
+          <!--///////////////////Item Container starts here///////////////////-->
 
+          <div class="Project-Container-Right-Item-Container-List">
+            <div class="Project-Description">
+              <div class="Project-Description-Title">
+                Movies Fetcher and Reviewer Web-Application
+                <!-- HTML !-->
+                <div style="margin-top: 10px">
+                  <button
+                    class="button-4"
+                    role="button"
+                    onclick="AlertForEmpty()"
+                  >
+                    View the Project
+                  </button>
+                </div>
+              </div>
+              <div class="Project-Description-Details">
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
 
-      
-      <!--///////////////////Item Container starts here///////////////////-->
-
-
-      <div class="Project-Container-Right-Item-Container-List">
-        <div class="Project-Description">
-          <div class="Project-Description-Title">
-            Instagram Clone Web-Application
-
-          </div>
-          <div class="Project-Description-Details">
-            <div class="Project-Description-Details-Section">
-              &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it<br>&nbsp; &nbsp;&nbsp;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+              </div>
             </div>
+            <div class="Project-Images">
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-1"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');
+                  "
+                ></div>
+                <div class="section-Item-2">
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');
+                    "
+                  ></div>
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');
+                    "
+                  ></div>
+                </div>
+              </div>
 
-            <div class="Project-Description-Details-Section">
-              &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it<br>&nbsp; &nbsp;&nbsp;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-3"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-4"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-5"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');
+                  "
+                ></div>
+              </div>
             </div>
-
           </div>
+          <!--///////////////////Item Container ends here///////////////////-->
+
+          <!--///////////////////Item Container starts here///////////////////-->
+
+          <div class="Project-Container-Right-Item-Container-List">
+            <div class="Project-Description">
+              <div class="Project-Description-Title">
+                Instagram Clone Web-Application
+                <!-- HTML !-->
+                <div style="margin-top: 10px">
+                  <button
+                    class="button-4"
+                    role="button"
+                    onclick="AlertForEmpty()"
+                  >
+                    View the Project
+                  </button>
+                </div>
+              </div>
+              <div class="Project-Description-Details">
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+              </div>
+            </div>
+            <div class="Project-Images">
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-1"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');
+                  "
+                ></div>
+                <div class="section-Item-2">
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');
+                    "
+                  ></div>
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');
+                    "
+                  ></div>
+                </div>
+              </div>
+
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-3"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-4"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-5"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!--///////////////////Item Container ends here///////////////////-->
+
+          <!--///////////////////Item Container starts here///////////////////-->
+
+          <div class="Project-Container-Right-Item-Container-List">
+            <div class="Project-Description">
+              <div class="Project-Description-Title">
+                MakeUp Studio Project
+                <!-- HTML !-->
+                <div style="margin-top: 10px">
+                  <button
+                    class="button-4"
+                    role="button"
+                    onclick="AlertForEmpty()"
+                  >
+                    View the Project
+                  </button>
+                </div>
+              </div>
+              <div class="Project-Description-Details">
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+              </div>
+            </div>
+            <div class="Project-Images">
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-1"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');
+                  "
+                ></div>
+                <div class="section-Item-2">
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');
+                    "
+                  ></div>
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');
+                    "
+                  ></div>
+                </div>
+              </div>
+
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-3"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-4"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-5"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!--///////////////////Item Container ends here///////////////////-->
+
+          <!--///////////////////Item Container starts here///////////////////-->
+
+          <div class="Project-Container-Right-Item-Container-List">
+            <div class="Project-Description">
+              <div class="Project-Description-Title">
+                Sticky-notes Project
+                <!-- HTML !-->
+                <div style="margin-top: 10px">
+                  <button
+                    class="button-4"
+                    role="button"
+                    onclick="AlertForEmpty()"
+                  >
+                    View the Project
+                  </button>
+                </div>
+              </div>
+              <div class="Project-Description-Details">
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+              </div>
+            </div>
+            <div class="Project-Images">
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-1"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');
+                  "
+                ></div>
+                <div class="section-Item-2">
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');
+                    "
+                  ></div>
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');
+                    "
+                  ></div>
+                </div>
+              </div>
+
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-3"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-4"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-5"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!--///////////////////Item Container ends here///////////////////-->
+
+          <!--///////////////////Item Container starts here///////////////////-->
+
+          <div class="Project-Container-Right-Item-Container-List">
+            <div class="Project-Description">
+              <div class="Project-Description-Title">
+                Text-To-Speech Converter Web-Application
+                <!-- HTML !-->
+                <div style="margin-top: 10px">
+                  <button
+                    class="button-4"
+                    role="button"
+                    onclick="AlertForEmpty()"
+                  >
+                    View the Project
+                  </button>
+                </div>
+              </div>
+              <div class="Project-Description-Details">
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+
+                <div class="Project-Description-Details-Section">
+                  &nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it<br />&nbsp;
+                  &nbsp;&nbsp;It has survived not only five centuries, but also
+                  the leap into electronic typesetting, remaining essentially
+                  unchanged.
+                </div>
+              </div>
+            </div>
+            <div class="Project-Images">
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-1"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');
+                  "
+                ></div>
+                <div class="section-Item-2">
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');
+                    "
+                  ></div>
+                  <div
+                    class="section-Item-2-Sub"
+                    style="
+                      background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');
+                    "
+                  ></div>
+                </div>
+              </div>
+
+              <div class="Project-Images-Section">
+                <div
+                  class="section-Item-3"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-4"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');
+                  "
+                ></div>
+
+                <div
+                  class="section-Item-5"
+                  style="
+                    background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!--///////////////////Item Container ends here///////////////////-->
         </div>
-        <div class="Project-Images">
-          <div class="Project-Images-Section">
-            <div class="section-Item-1" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss1.jfif');">
-
-            </div>
-            <div class="section-Item-2">
-              <div class="section-Item-2-Sub" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss2.jfif');"></div>
-              <div class="section-Item-2-Sub" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss3.jfif');"></div>
-            </div>
-
-          </div>
-
-          <div class="Project-Images-Section">
-              <div class="section-Item-3" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss4.jfif');">
-
-              </div>
-
-              <div class="section-Item-4" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss5.webp');">
-                
-              </div>
-
-              <div class="section-Item-5" style="background-image: url('./ProjectDetails/First_Movie_Fetcher/ss6.jfif');">
-                
-              </div>
-          </div>
-        </div>
-
       </div>
-      <!--///////////////////Item Container ends here///////////////////-->
-
-
     </div>
-  </div>
-
-
-</div>
-
-
-
-
-
 
     <!-- Footer -->
     <div class="footer-about">
-        <div class="footer-left">
-          <div class="footer-left-services">
-            <!-- title -->
-            <div class="footer-left-services-title">Services offered :</div>
-  
-            <div class="footer-left-services-desc">Web Developement.</div>
-  
-            <div class="footer-left-services-desc">Mentor Sessions.</div>
-  
-            <div class="footer-left-services-desc">WebStack Camps.</div>
-  
-            <div class="footer-left-services-desc">UI/UX Developement.</div>
-          </div>
-  
-          <div class="footer-left-services">
-            <!-- title -->
-            <div class="footer-left-services-title">Felids offered:</div>
-  
-            <div class="footer-left-services-desc">E-commerce Projects.</div>
-  
-            <div class="footer-left-services-desc">Web-Applications.</div>
-  
-            <div class="footer-left-services-desc">Backend Managements.</div>
-  
-            <div class="footer-left-services-desc">Front-end Designs.</div>
-          </div>
+      <div class="footer-left">
+        <div class="footer-left-services">
+          <!-- title -->
+          <div class="footer-left-services-title">Services offered :</div>
+
+          <div class="footer-left-services-desc">Web Developement.</div>
+
+          <div class="footer-left-services-desc">Mentor Sessions.</div>
+
+          <div class="footer-left-services-desc">WebStack Camps.</div>
+
+          <div class="footer-left-services-desc">UI/UX Developement.</div>
         </div>
-  
-        <div class="footer-right">
-          <div class="footer-copyright">
-            Copyright © 2021 Akash Malekar. All rights reserved.<br /><br />
-            Terms & conditions | Services.
-          </div>
+
+        <div class="footer-left-services">
+          <!-- title -->
+          <div class="footer-left-services-title">Felids offered:</div>
+
+          <div class="footer-left-services-desc">E-commerce Projects.</div>
+
+          <div class="footer-left-services-desc">Web-Applications.</div>
+
+          <div class="footer-left-services-desc">Backend Managements.</div>
+
+          <div class="footer-left-services-desc">Front-end Designs.</div>
         </div>
       </div>
-  
-      <script src="all.min.js"></script>
-      <script src="./ProjectSliderHandler.js"></script>
-    </body>
-  </html>
-  
+
+      <div class="footer-right">
+        <div class="footer-copyright">
+          Copyright © 2021 Akash Malekar. All rights reserved.<br /><br />
+          Terms & conditions | Services.
+        </div>
+      </div>
+    </div>
+
+    <script src="all.min.js"></script>
+    <script src="./ProjectSliderHandler.js"></script>
+  </body>
+</html>

@@ -31,3 +31,8 @@ function BoxSlideTextToSpeech(){
     FirstDivBox.style.marginTop="-2200px";
     FirstDivBox.style.transition="3s";
 }
+
+function AlertForEmpty(){
+
+    confirm("Unable to redirect !");
+}
